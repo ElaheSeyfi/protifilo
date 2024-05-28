@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+@font-face {
+    font-family: regular;
+    src: url("../font/Regular.ttf") format("opentype");
+  }
